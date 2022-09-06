@@ -15,7 +15,7 @@ class InvoiceServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        
+        //
     }
 
     /**

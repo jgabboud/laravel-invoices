@@ -1,6 +1,14 @@
 {
     "name": "jgabboud/laravel-invoices",
     "description": "This laravel package will give you the ability to create and save invoices for your platform, enjoy!",
+    "license": "MIT",
+    "keywords":
+        [
+            "laravel",
+            "invoices",
+            "package",
+            "model"
+        ],
     "authors": [
         {
             "name": "Joseph Abboud",
@@ -19,6 +27,7 @@
             ]
         }
     },
+    "require": {},
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true
 }

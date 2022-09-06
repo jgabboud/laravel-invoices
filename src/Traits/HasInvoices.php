@@ -7,5 +7,5 @@ use Carbon\Carbon;
 
 trait HasInvoices
 {
-    // invoices trait will go here    
+    // invoices trait will go here with some updates  
 }

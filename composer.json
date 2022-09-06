@@ -1,0 +1,24 @@
+{
+    "name": "jgabboud/laravel-invoices",
+    "description": "This laravel package will give you the ability to create and save invoices for your platform, enjoy!",
+    "authors": [
+        {
+            "name": "Joseph Abboud",
+            "email": "jgabboud99@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jgabboud\\Invoices\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jgabboud\\Invoices\\InvoiceServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}

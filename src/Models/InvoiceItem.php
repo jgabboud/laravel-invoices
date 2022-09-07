@@ -2,6 +2,7 @@
 
 namespace Jgabboud\Invoices\Models;
 
+use Jgabboud\Invoices\Models\Invoice;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -33,6 +34,15 @@ class InvoiceItem extends Model
     public function __construct(array $attributes = array())
     {
         parent::__construct($attributes);
+    }
+
+//
+
+// == RELATIONS
+
+    //-- invoice
+    public function invoice(){
+        return $this->belongsTo(Invoice::class);
     }
 
 //
